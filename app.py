@@ -3,6 +3,7 @@ from flask import Flask, render_template, request
 import pandas as pd
 import os
 import re
+import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
